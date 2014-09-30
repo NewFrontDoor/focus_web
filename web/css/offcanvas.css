@@ -1,0 +1,352 @@
+/*
+ * Style tweaks
+ * --------------------------------------------------
+ */
+ 
+/* General */
+html, body {overflow-x: hidden;}
+body {padding-top: 70px;}
+
+.blurb {
+	clear: both;
+	padding-left: -70px;
+	}
+
+#map div {
+	clear: both;
+	}
+
+.sidebar-offcanvas {
+	position: absolute;
+	top: 300px;
+	width: 50%; 
+	left: 1000px;
+  	}
+
+footer {
+	padding: 30px 15px; 
+	clear:both;
+	}
+
+/* Text */
+
+body {color:#555;}
+
+h1	{
+	font-weight: 700;
+	font-size: 80px;
+	}
+
+h2 	{
+	font-weight: 200;
+	font-size: 40px;
+	line-height: 45px;
+	color: #093;
+	margin-top: 60px;
+	margin-left: 15px;
+	}
+
+#contact h2 {
+	margin-left:0;
+	}
+
+h3 {margin-bottom: 3px;}	
+	
+p  	{
+	font-weight: 200;
+	font-size: 21px;
+	line-height: 29px;
+	margin-bottom: 5px;
+	}	
+
+.jumbotron p {
+	font-weight: 200;
+	font-size: 25px;
+	line-height: 32px;
+	padding-right: 200px;
+	padding-top: 5px;
+	color:#777;
+	}
+	
+#map p {
+	margin-top: 30px;
+	}
+	
+#contact p {
+	clear:both;
+	}	
+
+/* Images */  
+.navbar-brand {
+	background-image: url(../images/Focus_logo_long_white_even_smaller.png);
+	width: 230px;
+	/* don't specify height, to allow proper sizing */
+	background-repeat: no-repeat;
+	}
+
+#logo {
+	background-image: url(../images/Just_leaves-01_small.png);
+	margin-bottom: -50px;
+	float: left;
+	width: 164px;
+	height: 194px;
+	margin-left: -170px;
+	background-repeat: no-repeat;
+	}
+
+#Annette, #Luke, #Peirce {
+	background-color: #036;
+	float: left;
+	height: 100px;
+	width: 100px;
+	border-radius: 50px 50px 50px 50px;
+	margin-right: 600px;
+	margin-bottom: 15px;
+	margin-top: 40px;
+	}
+#Annette {background-image: url(../images/Annette.jpg);}
+#Luke {background-image: url(../images/Luke_mug.jpg);}
+#Peirce {background-image: url(../images/Peirce_head_shot.jpg);}
+
+#icon {
+	background-image: url(../images/iconmonstr-coffee-18-icon-01.png);
+	margin-left: -70px;
+	width: 77px;
+	height: 101px;
+	margin-top: -126px;
+	background-repeat: no-repeat;
+	}
+
+#icon2 {
+	background-image: url(../images/bible-01.png);
+	height: 77px;
+	width: 77px;
+	margin-left: -80px;
+	margin-top: -90px;
+	background-repeat: no-repeat;
+	}
+	
+#icon3 {
+	background-image: url(../images/apple-01.png);
+	height: 71px;
+	width: 80px;
+	margin-left: -90px;
+	margin-top: -80px;
+	background-repeat: no-repeat;
+	}
+
+#iconRow {
+	clear: both;
+	height: 102px;
+	/* don't specify width, to allow repeat */
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background-image: url(../images/icon_row.png);
+	background-repeat: repeat-x;
+	background-position: left;
+	}
+
+#eventPhoto {
+	background-image: url(../images/students_for%20poster_web.jpg);
+	clear: both;
+	height: 200px;
+	width: 300px;
+	}
+
+#big_photo {
+	background-image: url(../images/students_for_web.png);
+	height: 567px;
+	width: 850px;
+	margin-top: -50px;
+	}
+
+#photo1 {
+	background-image: url(../images/students_in_grass.jpg);
+	height: 336px;
+	width: 606px;
+	background-repeat: no-repeat;
+	margin-top: 50px;
+	margin-left: -20px;	
+	}
+	
+#photo2 {
+	background-image: url(../images/girls_on_bridge_630_439.jpg);
+	height: 439px;
+	width: 630px;
+	background-repeat: no-repeat;
+	clear:both;
+	margin: 20px 0 -50px;
+	}
+
+#Photo_4 {
+	background-image: url(../images/students_on_bench.jpg);
+	width: 540px;
+	height: 351px;
+	float: left;
+	background-repeat: no-repeat;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	}
+
+/* Screen Resize */
+
+@media screen and (max-width: 1400px) {
+	.jumbotron {clear: both;}
+	.sidebar-offcanvas {
+		top: 150px;
+		left: 900px;
+		margin-top: 50px;
+		}
+	#logo {
+		background-image: url(../images/Just_leaves-01_small.png);
+		width: 155px;
+		height: 188px;
+		margin-left: 0;
+		margin-bottom: -65px;
+		} 	
+	}
+	
+	
+@media screen and (max-width: 1200px) {
+	.sidebar-offcanvas {left: 700px;}
+	#icon, #icon2, #icon3 {
+	background:none;
+	height:0;
+	width:0
+	}		
+	}
+	
+@media screen and (max-width: 1000px) {
+	.sidebar-offcanvas {position: static;}
+	#logo {
+		background-image: url(../images/Just_leaves-01_smaller.png);
+		margin-bottom: -100px;
+		} 
+	#photo1 {
+		margin-top: 40px;
+		margin-bottom: -30px;
+		background-position: left;
+		}
+	.navbar-brand {margin-right: -100px;}
+	}
+
+@media screen and (max-width: 767px) {
+	.row-offcanvas {
+		position: relative;
+		-webkit-transition: all .25s ease-out;
+		-moz-transition: all .25s ease-out;
+		transition: all .25s ease-out;
+		}
+	.row-offcanvas-right {right: 0;}
+	.row-offcanvas-right .sidebar-offcanvas {right: -50%; }
+	.row-offcanvas-right.active {right: 50%; }
+	.sidebar-offcanvas {
+		position: relative;
+		top: 0;
+		width: 50%; 
+		}
+	.sidebar-offcanvas {
+		top: 0;
+		width: 50%; 
+		margin-top: 20px;
+		}		
+	h1 {font-size: 70px}
+	h2 {
+		font-size: 35px;
+		margin-top: 30px;
+		}
+	p {
+		font-size:16px;
+		font-weight: 200;
+		line-height: 24px;
+		margin-bottom: 10px;
+		}
+	.jumbotron p {
+		font-size: 18px;
+		line-height: 25px;
+		padding-right: 30px;
+		margin-bottom: 20px;
+		}		
+	#map p {
+		margin-top: 20px;
+		margin-bottom: 0;
+		}		
+	#iconRow {
+		margin: 20px 0;
+		background-repeat: no-repeat;
+		background-image: url(../images/icon_row_small.png);
+		}
+	#big_photo {
+		margin-top: -40px;
+		background-image: url(../images/icon_row_small.png);
+		background-repeat: no-repeat;
+		height: 90px;
+		}
+	.navbar-brand {background-image: url(../images/Focus_logo_long_white-01%20copy_small.png);}
+	#logo {
+		background-image: url(../images/Just_leaves-01_smallest.png);
+		float: left;
+		margin-left: 10px;
+		margin-bottom: -130px;
+		}
+	#photo1 {margin-top: 20px;}  
+	#photo2 {
+		height: 439px;
+		width: 630px;
+		clear:both;
+		margin-top: 30px;
+		margin-bottom: -30px;
+		}	
+	#Photo_4 {
+		margin-top: 20px;
+		margin-bottom: 20px;
+		}
+	}
+
+@media screen and (max-width: 630px) {
+	#photo1 {
+		background-image:url(../images/girls_in_snow_482_364.jpg);
+		margin-top: 20px;
+		}
+		
+	#photo2 {
+		background-image: url(../images/girls_on_bridge_small.jpg);
+		height: 439px;
+		width: 630px;
+		margin-top: 30px;
+		margin-bottom: -185px;
+		} 
+		
+	#Photo_4 {
+		background-image: url(../images/students_on_bench_smaller.jpg);
+		width: 400px;
+		height: 260px;
+		}
+	}
+	
+@media screen and (max-width: 400px) {	
+	.sidebar-offcanvas {
+		position: static;
+		margin-top: 20px;
+		}
+	h1 {font-size: 60px}
+	h3 {font-size: 20px;}
+	.jumbotron p {
+		padding-right: 5px;
+		padding-top: 5px;
+		}
+	#map p {
+		margin-top: 30px;
+		}				
+	#logo {
+		width: 110px;
+		height: 122px;
+		margin-left: 0;
+		margin-bottom: -65px;
+		}
+	#photo1 {
+		background-image: url(../images/girls_in_snow.jpg);
+		margin-top: -40px;
+		margin-bottom: -60px;
+		}
+	}

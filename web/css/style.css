@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.navbar-nav>li{
+	float:left;
+	padding-left: 0px;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 12px;
+	}
+
+@media screen and (max-width: 1200px) {
+	.navbar-nav>li{
+		float:left;
+		padding-left: 0px;
+		margin-left: -10px;
+		margin-right: -10px;
+		}
+	
+	.navbar-nav>li>a{
+		font-size:16px;
+		}
+	}
+
+@media screen and (max-width: 630px) {
+	.navbar-nav>li{
+		display:list-item;
+		}
+	}
