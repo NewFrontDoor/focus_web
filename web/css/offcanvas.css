@@ -7,6 +7,11 @@
 html, body {overflow-x: hidden;}
 body {padding-top: 70px;}
 
+.row {
+	margin-left: 10px;
+	margin-right: 10px;
+	}
+
 .blurb {
 	clear: both;
 	padding-left: -70px;
@@ -30,7 +35,10 @@ footer {
 
 /* Text */
 
-body {color:#555;}
+body {
+	font-family: 'Raleway', sans-serif;
+	color:#555;
+	}
 
 h1	{
 	font-weight: 700;
@@ -43,7 +51,6 @@ h2 	{
 	line-height: 45px;
 	color: #093;
 	margin-top: 60px;
-	margin-left: 15px;
 	}
 
 #contact h2 {
@@ -94,7 +101,7 @@ p  	{
 	background-repeat: no-repeat;
 	}
 
-#Annette, #Luke, #Peirce {
+#Luke, #Sam {
 	background-color: #036;
 	float: left;
 	height: 100px;
@@ -104,9 +111,8 @@ p  	{
 	margin-bottom: 15px;
 	margin-top: 40px;
 	}
-#Annette {background-image: url(../images/Annette.jpg);}
 #Luke {background-image: url(../images/Luke_mug.jpg);}
-#Peirce {background-image: url(../images/Peirce_head_shot.jpg);}
+#Sam {background-image: url(../images/Sam_mug.jpg);}
 
 #icon {
 	background-image: url(../images/iconmonstr-coffee-18-icon-01.png);
@@ -179,7 +185,7 @@ p  	{
 	}
 
 #Photo_4 {
-	background-image: url(../images/students_on_bench.jpg);
+	background-image: url(../images/students.png);
 	width: 540px;
 	height: 351px;
 	float: left;
@@ -204,6 +210,7 @@ p  	{
 		margin-left: 0;
 		margin-bottom: -65px;
 		} 	
+
 	}
 	
 	
@@ -318,7 +325,7 @@ p  	{
 		} 
 		
 	#Photo_4 {
-		background-image: url(../images/students_on_bench_smaller.jpg);
+		background-image: url(../images/students_small.png);
 		width: 400px;
 		height: 260px;
 		}
