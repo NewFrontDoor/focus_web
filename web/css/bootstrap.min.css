@@ -131,7 +131,7 @@
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	/* [disabled]margin-left: 100px; */
 	margin-right: -100px;
-	background-image: url(../../../../focus/Website/Source%20folder/focus_logo_white-01.png);
+	background-image: url(../images/focus_logo_white-01.png);
 	background-repeat: no-repeat;
 }.jumbotron h1,.jumbotron .h1{
 	font-size:120px;
