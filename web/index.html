@@ -26,6 +26,7 @@
 	</head>
 
 	<body>
+    <div id="home"></div>
 		<div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
 			<div class="container">
 				<div class="navbar-header">
@@ -50,11 +51,10 @@
 		</div><!-- /.navbar -->
 
 		<div class="container">
-			<div class="row row-offcanvas row-offcanvas-right">
+			<div class="row">
 				<div class="col-xs-12 col-sm-9">
-					<p class="pull-right visible-xs"></p>
 					<div id="logo"></div>
-					<div id="home"></div>
+
 					<div class="jumbotron">
 						<h1>Welcome <br />
 						<span style="font-size:60px;font-weight:200;font-family: Raleway, sans-serif;">to</span> FOCUS</h1>
@@ -188,20 +188,16 @@
 								<a href="mailto:staff@focustas.org">staff@focustas.org</a> </p>
 							</div><!--/.blurb-->
 						</div><!--/#contact-->
-
-
-					<div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
-						<div class="list-group">
-							<iframe src="http://www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Ffocustas&amp;width=280&amp;height=558&amp;colorscheme=light&amp;show_faces=true&amp;header=false&amp;stream=true&amp;show_border=false&amp;appId=114634505698" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:280px; height:558px;" allowTransparency="true"></iframe>
-						</div>
-					</div><!--/#sidebar-->
 				</div><!--/.col-xs-12 col-sm-9-->
-				<footer>
-					<hr>
-					<p>&copy; Shiloh Design 2014</p>
-				</footer>
-			</div><!--/.row row-offcanvas row-offcanvas-right-->
+        <div class="col-xs-12 col-sm-3" id="sidebar">
+          <iframe src="http://www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Ffocustas&amp;colorscheme=light&amp;height=500&amp;show_faces=true&amp;header=false&amp;stream=true&amp;show_border=false&amp;appId=114634505698" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height: 500px;" allowTransparency="true"></iframe>
+        </div><!--/#sidebar-->
+			</div><!--/.row-->
 		</div><!--/.container-->
+    <footer>
+      <hr>
+      <p>&copy; Shiloh Design 2014</p>
+    </footer>
 
 		<!-- Bootstrap core JavaScript
 		================================================== -->
@@ -209,7 +205,6 @@
 		<!-- <div id="fb-root"></div> -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		<script src="./js/bootstrap.min.js"></script>
-		<script src="./js/offcanvas.js"></script>
 		<script src="./js/smooth_scroll_copy.js"></script>
 	</body>
 </html>

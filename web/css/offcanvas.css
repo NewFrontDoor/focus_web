@@ -7,6 +7,9 @@
 html, body {overflow-x: hidden;}
 body {padding-top: 70px;}
 
+#sidebar { margin-top: 70px; }
+#involved, #about, #where, #contact, #events { padding-top: 70px; }
+
 .row {
 	margin-left: 10px;
 	margin-right: 10px;
@@ -93,11 +96,8 @@ p  	{
 
 #logo {
 	background-image: url(../images/Just_leaves-01_small.png);
-	margin-bottom: -50px;
-	float: left;
 	width: 164px;
 	height: 194px;
-	margin-left: -170px;
 	background-repeat: no-repeat;
 	}
 
@@ -188,7 +188,6 @@ p  	{
 	background-image: url(../images/students.png);
 	width: 540px;
 	height: 351px;
-	float: left;
 	background-repeat: no-repeat;
 	margin-top: 50px;
 	margin-bottom: 50px;
@@ -219,7 +218,9 @@ p  	{
 	#icon, #icon2, #icon3 {
 	background:none;
 	height:0;
-	width:0
+	width:0;
+  margin-left:0;
+  margin-top: 0;
 	}
 	}
 
@@ -238,6 +239,7 @@ p  	{
 	}
 
 @media screen and (max-width: 767px) {
+  #sidebar { margin-top: 10px; }
 	h1 {font-size: 70px}
 	h2 {
 		font-size: 35px;
