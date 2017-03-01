@@ -2,7 +2,7 @@
  * Style tweaks
  * --------------------------------------------------
  */
- 
+
 /* General */
 html, body {overflow-x: hidden;}
 body {padding-top: 70px;}
@@ -24,12 +24,12 @@ body {padding-top: 70px;}
 .sidebar-offcanvas {
 	position: absolute;
 	top: 300px;
-	width: 50%; 
+	width: 50%;
 	left: 1000px;
   	}
 
 footer {
-	padding: 30px 15px; 
+	padding: 30px 15px;
 	clear:both;
 	}
 
@@ -57,14 +57,14 @@ h2 	{
 	margin-left:0;
 	}
 
-h3 {margin-bottom: 3px;}	
-	
+h3 {margin-bottom: 3px;}
+
 p  	{
 	font-weight: 200;
 	font-size: 21px;
 	line-height: 29px;
 	margin-bottom: 5px;
-	}	
+	}
 
 .jumbotron p {
 	font-weight: 200;
@@ -74,16 +74,16 @@ p  	{
 	padding-top: 5px;
 	color:#777;
 	}
-	
+
 #map p {
 	margin-top: 30px;
 	}
-	
+
 #contact p {
 	clear:both;
-	}	
+	}
 
-/* Images */  
+/* Images */
 .navbar-brand {
 	background-image: url(../images/Focus_logo_long_white_even_smaller.png);
 	width: 230px;
@@ -131,7 +131,7 @@ p  	{
 	margin-top: -90px;
 	background-repeat: no-repeat;
 	}
-	
+
 #icon3 {
 	background-image: url(../images/apple-01.png);
 	height: 71px;
@@ -172,9 +172,9 @@ p  	{
 	width: 606px;
 	background-repeat: no-repeat;
 	margin-top: 50px;
-	margin-left: -20px;	
+	margin-left: -20px;
 	}
-	
+
 #photo2 {
 	background-image: url(../images/girls_on_bridge_630_439.jpg);
 	height: 439px;
@@ -209,26 +209,26 @@ p  	{
 		height: 188px;
 		margin-left: 0;
 		margin-bottom: -65px;
-		} 	
+		}
 
 	}
-	
-	
+
+
 @media screen and (max-width: 1200px) {
 	.sidebar-offcanvas {left: 700px;}
 	#icon, #icon2, #icon3 {
 	background:none;
 	height:0;
 	width:0
-	}		
 	}
-	
+	}
+
 @media screen and (max-width: 1000px) {
 	.sidebar-offcanvas {position: static;}
 	#logo {
 		background-image: url(../images/Just_leaves-01_smaller.png);
 		margin-bottom: -100px;
-		} 
+		}
 	#photo1 {
 		margin-top: 40px;
 		margin-bottom: -30px;
@@ -238,25 +238,6 @@ p  	{
 	}
 
 @media screen and (max-width: 767px) {
-	.row-offcanvas {
-		position: relative;
-		-webkit-transition: all .25s ease-out;
-		-moz-transition: all .25s ease-out;
-		transition: all .25s ease-out;
-		}
-	.row-offcanvas-right {right: 0;}
-	.row-offcanvas-right .sidebar-offcanvas {right: -50%; }
-	.row-offcanvas-right.active {right: 50%; }
-	.sidebar-offcanvas {
-		position: relative;
-		top: 0;
-		width: 50%; 
-		}
-	.sidebar-offcanvas {
-		top: 0;
-		width: 50%; 
-		margin-top: 20px;
-		}		
 	h1 {font-size: 70px}
 	h2 {
 		font-size: 35px;
@@ -273,11 +254,11 @@ p  	{
 		line-height: 25px;
 		padding-right: 30px;
 		margin-bottom: 20px;
-		}		
+		}
 	#map p {
 		margin-top: 20px;
 		margin-bottom: 0;
-		}		
+		}
 	#iconRow {
 		margin: 20px 0;
 		background-repeat: no-repeat;
@@ -296,14 +277,14 @@ p  	{
 		margin-left: 10px;
 		margin-bottom: -130px;
 		}
-	#photo1 {margin-top: 20px;}  
+	#photo1 {margin-top: 20px;}
 	#photo2 {
 		height: 439px;
 		width: 630px;
 		clear:both;
 		margin-top: 30px;
 		margin-bottom: -30px;
-		}	
+		}
 	#Photo_4 {
 		margin-top: 20px;
 		margin-bottom: 20px;
@@ -315,23 +296,23 @@ p  	{
 		background-image:url(../images/girls_in_snow_482_364.jpg);
 		margin-top: 20px;
 		}
-		
+
 	#photo2 {
 		background-image: url(../images/girls_on_bridge_small.jpg);
 		height: 439px;
 		width: 630px;
 		margin-top: 30px;
 		margin-bottom: -185px;
-		} 
-		
+		}
+
 	#Photo_4 {
 		background-image: url(../images/students_small.png);
 		width: 400px;
 		height: 260px;
 		}
 	}
-	
-@media screen and (max-width: 400px) {	
+
+@media screen and (max-width: 400px) {
 	.sidebar-offcanvas {
 		position: static;
 		margin-top: 20px;
@@ -344,7 +325,7 @@ p  	{
 		}
 	#map p {
 		margin-top: 30px;
-		}				
+		}
 	#logo {
 		width: 110px;
 		height: 122px;
